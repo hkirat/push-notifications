@@ -7,12 +7,12 @@ Send push notifications to clients in node.js.
 ## Installation and Setup
  - npm install push-notifications
  - In your server file
-  - `var pushNotifications = require("push-notifications");
+  - *var pushNotifications = require("push-notifications")*;
   - pushNotifications.push(socket, options);
   - options : 
-   - title : Title of the Notification
-   - body : Body of the notification
-   - icon : Link to the image of the icon
+   * title : Title of the Notification*
+   * body : Body of the notification*
+   * icon : Link to the image of the icon*
   - Client
    - include notificationLogger.js 
     - 'Either <script src="js/pushNotifications.js"></script>'
