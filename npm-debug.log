@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@3.10.8
+3 info using node@v0.10.25
+4 verbose node symlink /usr/sbin/node
+5 verbose publish [ '.' ]
+6 silly cache add args [ '.', null ]
+7 verbose cache add spec .
+8 silly cache add parsed spec { raw: '.',
+8 silly cache add   scope: null,
+8 silly cache add   escapedName: null,
+8 silly cache add   name: null,
+8 silly cache add   rawSpec: '.',
+8 silly cache add   spec: '/home/harkirat/projects/push-notifications-nodejs',
+8 silly cache add   type: 'local' }
+9 error addLocal Could not install /home/harkirat/projects/push-notifications-nodejs
+10 verbose stack Error: EISDIR, read
+11 verbose cwd /home/harkirat/projects/push-notifications-nodejs
+12 error Linux 3.13.0-32-generic
+13 error argv "node" "/usr/local/bin/npm" "publish"
+14 error node v0.10.25
+15 error npm  v3.10.8
+16 error code EISDIR
+17 error errno 28
+18 error eisdir EISDIR, read
+19 error eisdir This is most likely not a problem with npm itself
+19 error eisdir and is related to npm not being able to find a package.json in
+19 error eisdir a package you are trying to install.
+20 verbose exit [ 28, true ]

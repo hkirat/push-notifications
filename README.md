@@ -1,4 +1,4 @@
-# Push Notifications 
+# Push Notifications  [![npm version](https://badge.fury.io/js/push-notifications.svg)](https://badge.fury.io/js/push-notifications)
 
 Push Notification library written on top of socket.io
 
