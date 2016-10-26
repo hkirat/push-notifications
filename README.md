@@ -17,14 +17,14 @@ Send push notifications to clients in node.js.
 ##CLIENT
    - include notificationLogger.js 
     - `<script src="js/pushNotifications.js"></script>`
-    - `<script src="https://raw.githubusercontent.com/hkirat/push-notifications/master/pushNotifications.js"></script>`
+    - `<script src="https://raw.githubusercontent.com/hkirat/push\-notifications/master/pushNotifications.js"></script>`
 
 ## Screenshot
- - pushNotifications.push(socket, {body : "Only body :)"});
+ - `pushNotifications.push(socket, {body : "Only body :)"});`
   - ![Body Only](./img/1.png)
- - pushNotifications.push(socket, {title : "Custom Title", body : "Body with Title :("});
+ - `pushNotifications.push(socket, {title : "Custom Title", body : "Body with Title :("});`
   - ![Body with Title](./img/2.png)
- - pushNotifications.push(socket, {icon : "./cat.png", title : "Custom Title", body : "Body With Title and Custom Icon :)"});
+ - `pushNotifications.push(socket, {icon : "./cat.png", title : "Custom Title", body : "Body With Title and Custom Icon :)"});`
   - ![Image](./img/3.png)
 
 ## Browser Support
